@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import { Provider } from "react-redux";
+import store from "redux/store/store";
+import 'index.css';
+import Weather from "components/weather/weather";
+import reportWebVitals from 'reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <Weather />
+  </Provider>,
   document.getElementById('root')
 );
 

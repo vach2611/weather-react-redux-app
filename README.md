@@ -1,7 +1,12 @@
 
-# Getting Started with Create React App
+# React Redux Weather app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+used`\
+https://openweathermap.org public API \
+react-redux \
+@redux-toolkit
+
+if public API KEY is expired, so need to create new one in 'openweathermap.org' and put into `.env` file as a new `REACT_APP_OPEN_WEATHER_API_KEY`
 
 ## Available Scripts
 
@@ -14,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 

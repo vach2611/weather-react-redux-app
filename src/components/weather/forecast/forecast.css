@@ -1,0 +1,38 @@
+.weather__forecast{
+    margin-top: 50px;
+    border: 1px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.forecast__header{
+    display: flex;
+}
+.forecast__icon{
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forecast__title{
+    color: #fff;
+}
+.forecast__temp{
+    color: #fff;
+    font-size: 28px;
+    margin-top: 15px;
+}
+.forecast__temp > span{
+    color: brown;
+}
+
+.forecast__country{
+    margin-top: 20px;
+    color: #fff;
+}
+.country__title{
+    margin: 10px 0;
+}
