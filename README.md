@@ -8,6 +8,9 @@ react-redux \
 
 if public API KEY is expired, so need to create new one in 'openweathermap.org' and put into `.env` file as a new `REACT_APP_OPEN_WEATHER_API_KEY`
 
+## Application temporary available on
+`https://react-redux-weather-applicatio.herokuapp.com`
+
 ## Available Scripts
 
 In the project directory, you can run:
